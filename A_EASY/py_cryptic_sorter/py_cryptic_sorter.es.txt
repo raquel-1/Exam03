@@ -1,11 +1,18 @@
-Escribe una funciГіn que ordene una lista de cadenas con prioridad en tres niveles:
-1. Primario: por longitud (ascendente)
-2. Secundario: lexicogrГЎfico (alfabГ©tico, sin distinguir mayГєsculas, ascendente)
-3. Terciario: por nГєmero de vocales (ascendente si la longitud y el orden lГ©xico coinciden)
+Forbidden functions: sorted(), list.sort()
 
-La funciГіn debe manejar:
-- Cadenas vacГ­as y listas vacГ­as
-- MayГєsculas y minГєsculas mezcladas (tratar como minГєsculas al ordenar)
+Escribe una funcion que ordene una lista de cadenas
+con prioridad en tres niveles:
+
+1. Primario: por longitud (ascendente)
+2. Secundario: lexicográfico (alfabetico, sin distinguir
+               mayúsculas, ascendente)
+3. Terciario: por número de vocales (ascendente si la
+              longitud y el orden léxico coinciden)
+
+La funcion debe manejar:
+- Cadenas vací­as y listas vací­as
+- Mayúsculas y minúsculas mezcladas
+    (tratar como minúsculas al ordenar)
 - Caracteres especiales (ignorarlos al contar vocales)
 
 def cryptic_sorter(strings: list[str]) -> list[str]:

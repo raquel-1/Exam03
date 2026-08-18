@@ -1,5 +1,7 @@
-Write a function that checks if the brackets in a string are valid.
-A string is valid if every opening bracket has a matching closing bracket
+Write a function that checks if the brackets in
+a string are valid.
+A string is valid if every opening bracket has
+a matching closingbracket
 in the correct order.
 Allowed brackets: (), [], {}
 

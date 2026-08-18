@@ -1,4 +1,5 @@
-Escribe una funciГіn que compruebe si los parГ©ntesis de una cadena estГЎn bien emparejados y anidados.
+Escribe una funcion que compruebe si los parentesis de una
+cadena estan bien emparejados y anidados.
 Admite tres tipos: (), [], {}.
 
 La funciГіn debe:

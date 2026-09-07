@@ -12,6 +12,8 @@ def cryptic_sorter(strings: list[str]) -> list[str]:
             # ASCII
             elif n[j].lower() > n[j + 1].lower():
                 strings[j], strings[j + 1] = strings[j + 1], strings[j]
+            # vowels
+            elif 
             j += 1
     i += 1
 

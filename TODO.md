@@ -1,7 +1,7 @@
 # List
 
 ## 1
-- [-] py_cryptic_sorter
+- [X] py_cryptic_sorter
 - [ ] py_inter
 
 ## 2

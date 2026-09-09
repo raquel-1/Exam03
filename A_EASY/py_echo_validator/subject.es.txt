@@ -3,7 +3,9 @@ Archivos esperados	: py_echo_validator.py
 Funciones permitidas: Ninguna
 --------------------------------------------------------------------------------
 
-Escribe una función que compruebe si una cadena de texto es un palíndromo, ignorando los espacios y sin distinguir mayúsculas o minúsculas. Considera únicamente los caracteres alfabéticos para la comparación.
+Escribe una función que compruebe si una cadena de texto es un palíndromo,
+ignorando los espacios y sin distinguir mayúsculas o minúsculas.
+Considera únicamente los caracteres alfabéticos para la comparación.
 
 La función debe devolver True si el texto es un palíndromo y False en caso contrario.
 

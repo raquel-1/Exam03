@@ -3,7 +3,10 @@ Expected files   : py_echo_validator.py
 Allowed functions: None
 --------------------------------------------------------------------------------
 
-Write a function that checks if a string is a palindrome, ignoring spaces and case, only consider alphabetic characters for the comparison. The function Return True if the text is a palindrome, False otherwise.
+Write a function that checks if a string is a palindrome,
+ignoring spaces and case,
+only consider alphabetic characters for the comparison.
+The function Return True if the text is a palindrome, False otherwise.
 
 Your function must be declared as follows:
 

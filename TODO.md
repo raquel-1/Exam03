@@ -6,7 +6,7 @@
 
 ## 2
 - [X] py_echo_validator
-- [ ] py_mirror_matrix
+- [X] py_mirror_matrix
 - [ ] py_number_base_converter
 
 ## 3

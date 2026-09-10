@@ -7,15 +7,14 @@
 ## 2
 - [X] py_echo_validator
 - [X] py_mirror_matrix
-- [ ] py_number_base_converter
 
 ## 3
-- [ ] py_hidenp
+- [X] py_hidenp
 - [ ] py_number_base_converter
 - [ ] py_pattern_tracker
 
 ## 4
-- [ ] py_anagram
+- [X] py_anagram
 - [ ] py_shadow_merge
 - [ ] py_string_permutation_checker
 

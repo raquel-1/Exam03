@@ -2,7 +2,7 @@
 
 ## 1
 - [X] py_cryptic_sorter
-- [ ] py_inter
+- [X] py_inter
 
 ## 2
 - [X] py_echo_validator

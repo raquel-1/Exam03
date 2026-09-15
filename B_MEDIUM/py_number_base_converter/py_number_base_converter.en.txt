@@ -28,4 +28,3 @@ number_base_converter("123", 1, 10)
 
 number_base_converter("G", 16, 10)
 "ERROR"
-

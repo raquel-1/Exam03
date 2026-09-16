@@ -1,8 +1,4 @@
 def number_base_converter(number: str, from_base: int, to_base: int) -> str:
-
-    line = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    result = ""
-
     # base in range
     if from_base < 2 or from_base > 36:
         return "ERROR"
@@ -11,17 +7,19 @@ def number_base_converter(number: str, from_base: int, to_base: int) -> str:
 
     # int to decimal
     try:
-        num_decimal = int(number, from_base)
+        n_decimal = int(number, from_base)
     except ValueError:
         return "ERROR"
 
-    if num_decimal == 0:
+    if n_decimal == 0:
         return str(0)
 
-    while num_decimal > 0:
-        resto = num_decimal  % to_base
+    line = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    result = ""
+    while n_decimal > 0:
+        resto = n_decimal  % to_base
         result = line[resto] + result
-        num_decimal = num_decimal // to_base
+        n_decimal = n_decimal // to_base
 
     return result
 

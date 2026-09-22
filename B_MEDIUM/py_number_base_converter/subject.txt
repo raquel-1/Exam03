@@ -13,7 +13,6 @@ Subject:
 #       -> Return "0" if the input represents zero.                   #
 #######################################################################
 
-
 Test:
 
 # Basic conversions

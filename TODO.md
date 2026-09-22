@@ -6,7 +6,7 @@
 
 ## 2
 - [X] py_echo_validator
-- [X] py_mirror_matrix
+- [X][X] py_mirror_matrix
 
 ## 3
 - [X] py_hidenp
@@ -23,5 +23,5 @@
 - [ ] py_twist_sequence
 
 ## 6
-- [X] py_bracket_validator
+- [X][X] py_bracket_validator
 - [ ] py_whisper_cipher

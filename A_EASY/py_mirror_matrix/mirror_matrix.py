@@ -1,5 +1,6 @@
 def mirror_matrix(matrix: list[list[int]]) -> list[list[int]]:
     copy = []
+    
     for m in matrix:
         copy += [m[::-1]]
     return copy

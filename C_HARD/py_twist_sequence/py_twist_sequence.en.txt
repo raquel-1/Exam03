@@ -17,4 +17,3 @@ twist_sequence([1,2,3], 5)
 
 twist_sequence([], 3)
 []
-

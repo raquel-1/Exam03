@@ -19,7 +19,7 @@
 - [X] py_string_permutation_checker
 
 ## 5
-- [ ] py_string_sculptor
+- [X] py_string_sculptor
 - [ ] py_twist_sequence
 
 ## 6

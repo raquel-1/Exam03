@@ -21,4 +21,3 @@ string_sculptor("Python3.9!")
 
 string_sculptor("")
 ""
-

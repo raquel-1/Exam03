@@ -10,8 +10,8 @@
 
 ## 3
 - [X] py_hidenp
-- [ ] py_number_base_converter
-- [ ] py_pattern_tracker
+- [X] py_number_base_converter
+- [X] py_pattern_tracker
 
 ## 4
 - [X] py_anagram

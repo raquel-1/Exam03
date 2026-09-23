@@ -7,14 +7,14 @@ def number_base_converter(number: str, from_base: int, to_base: int) -> str:
         if not 2 <= to_base <= 36:
             return "ERROR"
         
-        n = int(number, from_base)
-        if n == 0:
+        n_decimal = int(number, from_base)
+        if n_decimal == 0:
             return "0"
         
         res = ""
-        while n:
-            res += digits[n % to_base]
-            n //= to_base
+        while n_decimal:
+            res += digits[n_decimal % to_base]
+            n_decimal //= to_base
         
         return res[::-1]
     except Exception:

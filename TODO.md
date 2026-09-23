@@ -15,7 +15,7 @@
 
 ## 4
 - [X] py_anagram
-- [ ] py_shadow_merge
+- [X] py_shadow_merge
 - [ ] py_string_permutation_checker
 
 ## 5

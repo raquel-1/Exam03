@@ -1,4 +1,4 @@
-Escribe una funciГіn que fusione dos listas ordenadas en una sola lista ordenada.
+Escribe una función que fusione dos listas ordenadas en una sola lista ordenada.
 
 def shadow_merge(list1: list[int], list2: list[int]) -> list[int]:
 

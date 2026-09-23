@@ -27,4 +27,3 @@ False
 
 string_permutation_checker("a gentleman","elegant man")
 True
-

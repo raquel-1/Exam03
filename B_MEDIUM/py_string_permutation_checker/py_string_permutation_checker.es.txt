@@ -1,12 +1,12 @@
-Escribe una funciГіn que determine si dos cadenas son permutaciones entre sГ­.
+Escribe una función que determine si dos cadenas son permutaciones entre sí­.
 Dos cadenas son permutaciones si contienen los mismos caracteres con las mismas frecuencias.
 
-La funciГіn debe:
+La función debe:
 - Comprobar que ambas cadenas tienen exactamente los mismos caracteres
-- Contar frecuencias (distingue mayГєsculas y minГєsculas)
+- Contar frecuencias (distingue mayúsculas y minúsculas)
 - Devolver True si son permutaciones, False en caso contrario
-- Manejar cadenas vacГ­as (dos vacГ­as son permutaciГіn)
-- Tratar espacios y puntuaciГіn como caracteres normales
+- Manejar cadenas vací­as (dos vací­as son permutación)
+- Tratar espacios y puntuación como caracteres normales
 
 def string_permutation_checker(s1: str, s2: str) -> bool:
 
@@ -33,4 +33,3 @@ False
 
 string_permutation_checker("a gentleman","elegant man")
 True
-

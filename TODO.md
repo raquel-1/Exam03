@@ -20,7 +20,7 @@
 
 ## 5
 - [X] py_string_sculptor
-- [ ] py_twist_sequence
+- [X] py_twist_sequence
 
 ## 6
 - [X][X] py_bracket_validator

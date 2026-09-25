@@ -1,4 +1,6 @@
-Escribe una funciГіn que cree un cifrado simple desplazando las letras de una cadena una cantidad dada. Los caracteres no alfabГ©ticos deben permanecer iguales.
+Escribe una función que cree un cifrado simple desplazando
+las letras de una cadena una cantidad dada.
+Los caracteres no alfabéticos deben permanecer iguales.
 
 def whisper_cipher(text: str, shift: int) -> str:
 

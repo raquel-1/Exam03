@@ -24,4 +24,4 @@
 
 ## 6
 - [X][X] py_bracket_validator
-- [ ] py_whisper_cipher
+- [X] py_whisper_cipher

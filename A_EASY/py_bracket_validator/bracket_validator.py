@@ -16,8 +16,7 @@ def bracket_validator(s: str) -> bool:
 			last = collect[-1]
 			if (s[i] == ")" and last == "(") or (s[i] == "}" and last == "{") or (s[i] == "]" and last == "["):
 				# pop # hello -> hell
-				l = len(collect) - 1
-				new = collect[:l]
+				new = collect[:-1]
 				collect = new
 			else: return False
 		i += 1

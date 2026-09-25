@@ -1,8 +1,8 @@
 ma = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 mi = "abcdefghijklmnopqrstuvwxyz"
 
-coder_ma = {val: x + 1 for x, val in enumerate(ma)}
-coder_mi = {val: x + 1 for x, val in enumerate(mi)}
+coder_ma = {val: x for x, val in enumerate(ma)}
+coder_mi = {val: x for x, val in enumerate(mi)}
 decoder_mi = {val: x for x, val in coder_mi.items()}
 decoder_ma= {val: x for x, val in coder_ma.items()}
 
@@ -20,4 +20,10 @@ def whisper_cipher(text: str, shift: int) -> str:
 
 
 if __name__ == "__main__":
-	print(whisper_cipher("hola como estas", 15))
+	print(whisper_cipher("hello", 3))
+	print(whisper_cipher("Hello World!", 1))
+	print(whisper_cipher("xyz", 3))
+	print(whisper_cipher("hello", 3))
+	print(whisper_cipher("ABC123def", 5))
+	print(whisper_cipher("", 10))
+	print(whisper_cipher("abc", -3))

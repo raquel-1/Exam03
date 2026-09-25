@@ -21,4 +21,3 @@ whisper_cipher("", 10)
 
 whisper_cipher("abc", -3)
 "xyz"
-
